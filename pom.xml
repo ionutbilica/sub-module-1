@@ -9,7 +9,12 @@
     </parent>
 
     <artifactId>sub-module-1</artifactId>
-
-    <name>sub-module-1</name>
-
+	
+	<name>sub-module-1</name>
+	
+	<scm>
+        <connection>scm:git:https://github.com/ionutbilica/sub-module-1.git</connection>
+        <developerConnection>scm:git:https://github.com/ionutbilica/sub-module-1.git</developerConnection>
+        <url>scm:git:https://github.com/ionutbilica/sub-module-1.git</url>
+    </scm>
 </project>
